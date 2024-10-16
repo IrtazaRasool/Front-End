@@ -1,8 +1,8 @@
 # 3D Web Animation Project
 
 ![image](https://github.com/user-attachments/assets/6e5312e0-a880-4410-ac5d-1b29febd04f4) 
- <img src="https://github.com/user-attachments/assets/92035d42-5708-42b7-852a-180ace45eac1" width="48%"> <img src="https://github.com/user-attachments/assets/760f013d-fdc4-4f1a-bac4-1a0fb67a1965" width="48%">
- <img src="https://github.com/user-attachments/assets/b482943a-a2f5-4244-b599-6775fb48bb6c" width="48%"> <img src="https://github.com/user-attachments/assets/07e7494b-242c-4303-b59a-5aee615883a6" width="58%">
+ <img src="https://github.com/user-attachments/assets/92035d42-5708-42b7-852a-180ace45eac1" width="46%"> <img src="https://github.com/user-attachments/assets/760f013d-fdc4-4f1a-bac4-1a0fb67a1965" width="46%">
+ <img src="https://github.com/user-attachments/assets/b482943a-a2f5-4244-b599-6775fb48bb6c" width="46%"> <img src="https://github.com/user-attachments/assets/07e7494b-242c-4303-b59a-5aee615883a6" width="46%">
 
 This project demonstrates a dynamic, scroll-based animation built with HTML, CSS, JavaScript, GSAP, and Locomotive Scroll. The web page includes engaging animations, canvas rendering, and scroll-triggered interactions to create an immersive user experience.
 
