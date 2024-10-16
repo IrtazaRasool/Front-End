@@ -2,7 +2,7 @@
 
 ![Screenshot 2024-10-16 103600](https://github.com/user-attachments/assets/44cacf8d-539f-44a9-a745-f6d95de56a27)
 
-<img src="https://github.com/user-attachments/assets/0d3a63d1-8478-44d4-bab1-cae79c4b4acd" width="30%"> <img src="https://github.com/user-attachments/assets/df13940e-f716-4950-b562-8b084c0f6529" width="30%"> <img src="https://github.com/user-attachments/assets/7aa7819b-7dd1-4243-982b-3618c2018c6c" width="30%">
+<img src="https://github.com/user-attachments/assets/0d3a63d1-8478-44d4-bab1-cae79c4b4acd" width="33.33333333333333%"> <img src="https://github.com/user-attachments/assets/df13940e-f716-4950-b562-8b084c0f6529" width="33.33333333333333%"> <img src="https://github.com/user-attachments/assets/7aa7819b-7dd1-4243-982b-3618c2018c6c" width="33.33333333333333%">
 
 ## Overview
 This project is a promotional website for Sidcup Family Golf, featuring information about the venue, services, and facilities, including the Toptracer driving range, adventure golf, and golf lessons. The website uses GSAP for smooth animations and ScrollTrigger for engaging scroll-based animations.
