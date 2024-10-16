@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+
+}
+*::selection{
+    background-color: white;
+    color: #95c11e;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+    background-color: #000;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #95C11E;
+    border-radius: 25px;
+    height: 20%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+
+#nav {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    gap: 50px;
+    position: fixed;
+    justify-content: flex-start;
+    z-index: 999;
+    color:white;
+  }
+
+  #nav img {
+    height: 4.5vw;
+  }
+
+  #nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.15vw;
+  }
+
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: #95c11e;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.1s;
+  }
+  #cursor-blur {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(150, 193, 30, 0.3);
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(80px);
+    z-index: 9;
+    transition: all linear 0.4s;
+  }
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+#main{
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+}
+#page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+  }
+
+  #page1 #arrow{
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid #95C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -2%;
+    bottom: 0%;
+    border-radius: 50%;
+    transition: 0.5s ease;
+
+  }
+  #page1 #arrow:hover{
+    scale: 0.4;
+    background-color: #95C11E;
+  }
+
+  #page1 #arrow i{
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  #page1 h1 {
+    font-size: 7.5vw;
+    font-weight: 900;
+    position: relative;
+  }
+  #page1 h1::before {
+    content: "EAT. DRINK. PLAY.";
+    position: absolute;
+    color: #000;
+    top: -5px;
+    left: -5px;
+    -webkit-text-stroke: 1.5px #95c11e;
+    z-index: -1;
+  }
+
+  #page1 h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+#page1 p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 50% ;
+
+}
+
+#page2 {
+    min-height: 100vh;
+    width: 100%;
+    z-index: 10;
+}
+#scroller {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
+}
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+#scroller-in {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4 {
+  display: inline-block;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-right: 20px;
+  transition: all linear 0.3s;
+  color: #000;
+  -webkit-text-stroke: 2px #ffffff;
+}
+#scroller h4:hover {
+  color: #95c11e;
+  -webkit-text-stroke: 2px #95c11e;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#about-us{
+    margin-top: 100px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    margin-bottom: 10%;
+    color: white;
+
+    
+}
+#img1{
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#img2{
+    height: 300px;
+    width: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#about-us-in{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+#about-us-in h3{
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+#about-us-in p{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+
+    
+}
+
+#bg-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 8.5%;
+    position: absolute;
+    bottom: 700px;
+}
+
+
+#cards-container{
+  
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.cards{
+    height: 80%;
+    width: 24%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition:  all ease-in 0.6s;
+}
+
+#card1{
+    background-image: url("./Assests/card1.avif");
+
+}
+
+#card2{
+    background-image: url("./Assests/card2.webp");
+    
+}
+#card3{
+    background-image: url("./Assests/card3.avif");
+    
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    padding: 30px;
+    transition:  all ease-in 0.6s;
+    opacity: 0;
+    
+} 
+
+.cards:hover  .overlay {
+    opacity: 1;
+
+}
+
+.overlay h4{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    margin-bottom: 20px;
+
+}
+
+.overlay p{
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.cards:hover{
+    transform: rotate3d(-1,1,0, 20deg);
+}
+
+#green-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(to left bottom,#039c3d,#95C11E);
+}
+
+#green-div h4{ 
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 27px;
+    text-align: center;
+    line-height:50px ;
+    color: black;
+    font-weight: 800;
+}
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width: 15%;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#page3>p{
+    font-size: 35px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    line-height: 45px;
+    color:white;
+}
+
+#page3 img{
+    position: absolute;
+    height: 60px;
+
+}
+
+#page3 #colon1{
+    left: 15%;
+    top: 25%;
+}
+
+#page3 #colon2{
+    right: 15%;
+    bottom: 30%;
+}
+
+#page4{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+
+}
+
+.elem{
+    height: 70%;
+    width: 26%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.elem h2{
+    background-color: #95c11e;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    transition: all ease 0.5s;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+
+.elem:hover h2{
+    color: white;
+    background-color: transparent;
+
+}
+
+.elem:hover img{
+   scale: 1;
+    
+}
+
+#page4 h1{
+    font-size: 70px;
+    position: absolute;
+    top: -20%;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 2px white;
+}
+
+#footer {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(to left bottom,  #03d754f7, #95c11e);
+    display: flex;
+    position: relative;
+}
+
+#footer-img {
+    height: 100%; 
+    width: 20%;   
+    object-fit: cover; 
+}
+
+.footer-div{
+    position: absolute;
+    margin-left: 4%;
+    width: 80%;
+    height: 100%;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 10%;
+    z-index: 10;
+    text-transform: uppercase;
+
+}
+
+
+
+#footer-logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+#footer-main{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'montserrat';
+    list-style-type: none;
+
+    line-height: 40px;
+
+}
+#Toptracer:hover{
+    color: white;
+}
+#Crazy:hover{
+    color: white;
+}
+#Cafe:hover{
+    color: white;
+}
+
+#footer-about{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'montserrat';
+    list-style-type: none;
+    font-family: 'montserrat';
+    list-style-type: none;
+
+    line-height: 40px;
+    
+}
+#footer-about:hover{
+
+    color: white;
+}
+
+#footer-contact{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+#footer-contact:hover{
+
+    color: white;
+}
+
+
+#footer-contact h3{
+    margin-top: 5px;
+}
+
+
