@@ -1,8 +1,8 @@
 # Digital Performance Solutions Website
 
 
-![Screenshot 2024-10-16 095446](https://github.com/user-attachments/assets/5ae329ac-54f0-471e-a623-9f3259880419)
-<img src="https://github.com/user-attachments/assets/cfb094c3-281e-4f79-9f9e-cdbb7df10211" width="49%"> <img src="https://github.com/user-attachments/assets/b7ef3a9e-b4a9-495f-a9c4-96d733b80ff2" width="49%">
+![Screenshot 2024-10-16 095446](https://github.com/user-attachments/assets/b7ef3a9e-b4a9-495f-a9c4-96d733b80ff2)
+<img src="https://github.com/user-attachments/assets/5ae329ac-54f0-471e-a623-9f3259880419" width="49%"> <img src="https://github.com/user-attachments/assets/cfb094c3-281e-4f79-9f9e-cdbb7df10211" width="49%">
 ## Overview
 This repository contains the code for a marketing agency website focused on providing digital performance solutions. The website is built with HTML, CSS, and JavaScript, using GSAP for animations.
 
