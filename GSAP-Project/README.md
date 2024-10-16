@@ -3,8 +3,8 @@
 ## Description
 **WizardZ** is a modern, visually engaging website designed to offer digital consultation services. This website is built to help businesses navigate the digital landscape and improve their online presence. Using a combination of HTML, CSS, JavaScript, and GSAP (GreenSock Animation Platform), WizardZ provides smooth animations, an intuitive layout, and a professional user experience.
 
-![Screenshot 2024-10-09 170041](https://github.com/user-attachments/assets/23c05388-1e6c-4d95-80b1-a92fee1c670b)
-<img src="https://github.com/user-attachments/assets/83b1f5d8-c253-4c07-a318-7180d4aa4684" width="49%"> <img src="https://github.com/user-attachments/assets/0bf870c8-d3f8-4d4a-bb66-1fcf587c664e" width="49%">
+![Screenshot 2024-10-09 170041](https://github.com/user-attachments/assets/83b1f5d8-c253-4c07-a318-7180d4aa4684)
+<img src="https://github.com/user-attachments/assets/23c05388-1e6c-4d95-80b1-a92fee1c670b" width="49%"> <img src="https://github.com/user-attachments/assets/0bf870c8-d3f8-4d4a-bb66-1fcf587c664e" width="49%">
 
 
 The website features multiple sections, including an about page, services offered, use cases, pricing, and a blog. Users can also request a quote for a personalized consultation. 
